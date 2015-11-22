@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """aws_custom_json_tool.py
-Version: @@@VERSION@@@
-Author: @@@AUTHOR@@@
+Version: 0.1.0
+Author: Brian Wiborg <brian.wiborg@imagineeasy.com>
 
 Tool for pulling/pushing AWS custom-JSON stack-settings.
 
@@ -31,8 +31,8 @@ import boto3
 import logging
 from docopt import docopt
 
-__author__ = '@@@AUTHOR@@@'
-__version__ = '@@@VERSION@@@'
+__author__ = 'Brian Wiborg <brian.wiborg@imagineeasy.com>'
+__version__ = '0.1.0'
 
 logger = logging.getLogger('aws-custom-json-tool')
 

@@ -159,7 +159,7 @@ def main():
 
     # Select and run workflow.
     if args['pull']:
-        prompt = "Do you really want to overwrite your local custom"
+        prompt = "Do you really want to overwrite your local custom JSON?"
         do_it = not stack_json[u'custom-json'] or args['-y'] or args['--yes'] or opt_in(prompt)
         if do_it is not True:
             logger.info("Aborted.")

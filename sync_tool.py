@@ -1,18 +1,18 @@
 #!/usr/bin/env python
-"""aws_custom_json_tool.py
+"""sync_tool.py
 Version: 0.1.0
 Author: Brian Wiborg <brian.wiborg@imagineeasy.com>
 
 Tool for managing AWS OpsWorks custom-JSON stack-settings.
 
 Usage:
-    aws-custom-json-tool [-y|--yes] pull <filename>
-    aws-custom-json-tool [-y|--yes] push <filename>
+    sync_tool [-y|--yes] pull <filename>
+    sync_tool [-y|--yes] push <filename>
 
 Options:
-    -h|--help   - Print this help and exit.
     --version   - Print the version-number and exit.
-    -y|--yes    - Automatically opt-in to security questions.
+    -h|--help   - Print this help and exit.
+    -y|--yes    - Automatically opt-in to questions.
 
 Arguments:
     <filename>  - Path to the stack-file. All stack-files are JSON files containing the following
@@ -31,8 +31,8 @@ import boto3
 import logging
 from docopt import docopt
 
-__author__ = 'Brian Wiborg <brian.wiborg@imagineeasy.com>'
 __version__ = '0.1.0'
+__author__ = 'Brian Wiborg <brian.wiborg@imagineeasy.com>'
 
 logger = logging.getLogger('aws-custom-json-tool')
 

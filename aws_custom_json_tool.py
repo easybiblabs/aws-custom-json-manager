@@ -3,7 +3,7 @@
 Version: 0.1.0
 Author: Brian Wiborg <brian.wiborg@imagineeasy.com>
 
-Tool for pulling/pushing AWS custom-JSON stack-settings.
+Tool for managing AWS OpsWorks custom-JSON stack-settings.
 
 Usage:
     aws-custom-json-tool [-y|--yes] pull <filename>

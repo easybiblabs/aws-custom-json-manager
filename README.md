@@ -1,5 +1,5 @@
 # AWS Custom-JSON Tool
-A tool for pulling/pushing AWS custom-JSON stack-settings.
+A tool for managing AWS OpsWorks custom-JSON stack-settings.
 
 Usage:
 

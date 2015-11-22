@@ -1,4 +1,4 @@
-# AWS Custom-JSON Tool
+# AWS Custom-JSON Manager
 A tool for managing AWS OpsWorks custom-JSON stack-settings.
 
 Usage:

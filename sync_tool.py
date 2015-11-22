@@ -34,7 +34,7 @@ from docopt import docopt
 __version__ = '0.1.0'
 __author__ = 'Brian Wiborg <brian.wiborg@imagineeasy.com>'
 
-logger = logging.getLogger('aws-custom-json-tool')
+logger = logging.getLogger('sync-tool')
 
 
 def configure_logging():

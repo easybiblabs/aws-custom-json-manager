@@ -161,13 +161,17 @@ def main():
     if args['pull']:
         prompt = "Do you really want to overwrite your local custom"
         do_it = not stack_json[u'custom-json'] or args['-y'] or args['--yes'] or opt_in(prompt)
-        custom_json = get_opsworks_stack_settings_custom_json(stack_json[u'stack-id'])
-        new_stack_json = {
-            u'stack-id': stack_id,
-            u'custom-json': custom_json,
-        }
-        write_stack_file(args['<filename>'], new_stack_json)
-        logger.info("Done.")
+        if do_it is not True:
+            logger.info("Aborted.")
+
+        else:
+            custom_json = get_opsworks_stack_settings_custom_json(stack_json[u'stack-id'])
+            new_stack_json = {
+                u'stack-id': stack_id,
+                u'custom-json': custom_json,
+            }
+            write_stack_file(args['<filename>'], new_stack_json)
+            logger.info("Done.")
 
     elif args['push']:
         prompt = "Do you really want to overwrite the OpsWorks stack-settings custom JSON?"

@@ -16,5 +16,5 @@ See: requirements.txt
 
 To install all dependencies:
 ```
-# pip install -r requirements.txt
+# pip install -e .
 ```

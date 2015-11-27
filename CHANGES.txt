@@ -1,1 +1,2 @@
+v-0.1.1, 2015/11/27 -- Distributional fixes.
 v-0.1.0, 2015/11/27 -- Initial release.

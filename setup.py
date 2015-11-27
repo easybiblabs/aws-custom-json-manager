@@ -18,7 +18,7 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='0.1.0',
+    version='0.1.1',
 
     description='A sample Python project',
     long_description="A tool for managing AWS OpsWorks Custom JSON via GIT.",
@@ -103,7 +103,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points={
         'console_scripts': [
-            'aws-custom-json-sync-tool = aws_custom_json_manager.aws_custom_json_manager:main',
+            'aws-custom-json-sync-tool = aws_custom_json_manager.aws_custom_json_sync_tool:main',
         ],
     },
 )

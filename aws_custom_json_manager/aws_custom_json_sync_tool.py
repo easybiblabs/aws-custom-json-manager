@@ -144,6 +144,8 @@ def opt_in(prompt):
 
 
 def main():
+    configure_logging()
+
     # Parse shell-arguments.
     args = docopt(__doc__, version=__version__)
 
@@ -184,5 +186,4 @@ def main():
 
 
 if __name__ == '__main__':
-    configure_logging()
     main()

@@ -1,6 +1,5 @@
 #!/usr/bin/env python2
 """sync_tool.py
-Version: 0.1.0
 Author: Brian Wiborg <brian.wiborg@imagineeasy.com>
 
 Tool for managing AWS OpsWorks custom-JSON stack-settings.

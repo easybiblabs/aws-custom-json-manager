@@ -103,7 +103,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points={
         'console_scripts': [
-            'aws-custom-json-sync-tool = aws_custom_json_manager.aws_custom_json_sync_tool:main',
+            'aws-custom-json-sync-tool=aws_custom_json_manager.aws_custom_json_sync_tool:main',
         ],
     },
 )

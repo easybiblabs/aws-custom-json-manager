@@ -30,7 +30,7 @@ import boto3
 import logging
 from docopt import docopt
 
-__version__ = '0.1.0'
+__version__ = '0.1.2'
 __author__ = 'Brian Wiborg <brian.wiborg@imagineeasy.com>'
 
 logger = logging.getLogger('sync-tool')
